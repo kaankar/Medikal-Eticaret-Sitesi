@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title> Web Tasarım Ödevi </title>
+<link rel="stylesheet" href="Anasayfa.css"/>      
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>      
+</head>  
+
+
+
+<script>
+
+function al(){
+ 
+ var sonuc=document.getElementById("ekle");
+ sonuc.value=Number(sonuc.value)+1;
+}
+
+
+</script>
+
+<body>
+    <div class="duzen"> 
+              <div class="sayfa-baslıgı">MEDİKAL PAZARLAMA</div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="#" class="a-menu"><li>Anasayfa</li></a>
+            <a href="#ilaclar" class="a-menu"><li>İlaçlar</li></a>
+            <a href="#medikal cihazlar" class="a-menu"><li>Medikal Cihazlar </li></a>
+            <a href="Üye Girişi.html" class="a-menu"><li>Üye Girişi </li></a>
+            <a href="#" class="a-menu"><li>Sepet</li> <input type="button" id="ekle" value="0"></a>
+        </ul>
+    </div>
+
+
+     <div class="container">
+      <a href="#ilaclar">
+         <div class="kategori">
+             <img src="resimler/ilaclar.jpg" class="item-image"/>
+             <div class="image-title">İlaçlar</div>
+         </div>
+            </a>
+     
+     
+     <a href="#medikal cihazlar">
+        <div class="kategori">
+            <img src="resimler/medikal cihazlar.jpg" class="item-image"/>
+            <div class="image-title">Medikal Cihazlar</div>
+        </div>
+           </a>
+    </div>
+    
+
+    <div class="medikal-container" id="ilaclar" >
+       <div class="duzen">
+            <div class="title" >İLAÇLAR</div>
+       </div>
+       <div class="items">
+           <div class="images">
+           <img src="Resimler/resim.jpg" class="item-image-size"/>
+       </div>
+       <div class="açıklama" >
+           <b>Urinonvef Cranberry <br/> 30 Kapsül</b><br/>
+           <div class="item-select">
+               Fiyat : ₺47<br/>
+           </div>
+               <button class="satın-alma" onclick="al()">Satın Al </button>
+       </div>
+      </div>
+      <div class="items">
+        <div class="images">
+        <img src="Resimler/resim2.jpg" class="item-image-size"/>
+    </div>
+    <div class="açıklama">
+        <b>Osteozinc Kaisiyum Magnezyum<br/> Çinko D Vitamini 30 Tablet</b><br/>
+        <div class="item-select">
+            Fiyat : ₺38,30<br/>
+        </div>
+            <button class="satın-alma" onclick="al()">Satın Al</button>
+    </div>
+   </div>
+   <div class="items" >
+    <div class="images">
+    <img src="Resimler/resim3.jpg" class="item-image-size"/>
+</div>
+<div class="açıklama">
+    <b>Magnimore Takviye Edici Gıda <br/> 60 Tablet</b><br/>
+    <div class="item-select">
+        Fiyat : ₺133<br/>
+    </div>
+        <button class="satın-alma" onclick="al()">Satın Al</button>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+    <img src="Resimler/resim4.jpg" class="item-image-size"/>
+</div>
+<div class="açıklama">
+    <b>Majezik 100 mg 15 Film Tablet</b><br/>
+    <div class="item-select">
+        Fiyat : ₺19<br/>
+    </div>
+        <button class="satın-alma" onclick="al()">Satın Al</button>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+    <img src="Resimler/resim5.jpg" class="item-image-size"/>
+</div>
+<div class="açıklama">
+    <b>Parol 500 mg 20 Tablet</b><br/>
+    <div class="item-select">
+        Fiyat : ₺9,99<br/>
+    </div>
+        <button class="satın-alma" onclick="al()">Satın Al</button>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+    <img src="Resimler/resim6.jpg" class="item-image-size"/>
+</div>
+<div class="açıklama">
+    <b>Dolorex 50 mg 20 Draje</b><br/>
+    <div class="item-select">
+        Fiyat : ₺29<br/>
+    </div>
+        <button class="satın-alma" onclick="al()">Satın Al</button>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+    <img src="Resimler/resim7.jpg" class="item-image-size"/>
+</div>
+<div class="açıklama">
+    <b>Bigjoy Suda Vitamin C 1000 Mg <br/> 60 Kapsül</b><br/>
+    <div class="item-select">
+        Fiyat : ₺51,95<br/>
+    </div>
+        <button class="satın-alma" onclick="al()">Satın Al</button>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+    <img src="Resimler/resim8.jpg" class="item-image-size"/>
+</div>
+<div class="açıklama">
+    <b>Garden of Life Vitamin D <br/> Vitamin Code Raw D3</b><br/>
+    <div class="item-select">
+        Fiyat : ₺424<br/>
+    </div>
+        <button class="satın-alma" onclick="al()">Satın Al</button>
+</div>
+</div>
+
+    </div>
+
+
+
+
+    <div class="medikal-container" id="medikal cihazlar" >
+        <div class="duzen">
+             <div class="title" >MEDİKAL CİHAZLAR</div>
+        </div>
+        <div class="items">
+            <div class="images">
+            <img src="Resimler/resim9.jpg" class="item-image-size"/>
+        </div>
+        <div class="açıklama">
+            <b>Steteskoplu Erişkin Tansiyon Aleti <br/> Erka</b><br/>
+            <div class="item-select">
+                Fiyat : ₺299<br/>
+            </div>
+                <button class="satın-alma" onclick="al()">Satın Al</button>
+        </div>
+       </div>
+       <div class="items">
+         <div class="images">
+         <img src="Resimler/resim10.jpg" class="item-image-size"/>
+     </div>
+     <div class="açıklama">
+         <b>Nebulizatör Mesilife <br/> BR-CN116</b><br/>
+         <div class="item-select">
+             Fiyat : ₺249<br/>
+         </div>
+             <button class="satın-alma" onclick="al()">Satın Al</button>
+     </div>
+    </div>
+   <div class="items">
+     <div class="images">
+     <img src="Resimler/resim11.jpg" class="item-image-size"/>
+ </div>
+ <div class="açıklama">
+     <b>Bestman Fetal El Doppler <br/> BF500D(PLUS)</b><br/>
+     <div class="item-select">
+         Fiyat : ₺149<br/>
+     </div>
+         <button class="satın-alma" onclick="al()">Satın Al</button>
+ </div>
+ </div>
+ <div class="items">
+     <div class="images">
+     <img src="Resimler/resim12.jpg" class="item-image-size"/>
+ </div>
+ <div class="açıklama">
+     <b>Sterilizatör 16 Litre <br/> Manuel Goldterm</b><br/>
+     <div class="item-select">
+         Fiyat : ₺2.319,33<br/>
+     </div>
+         <button class="satın-alma" onclick="al()">Satın Al</button>
+ </div>
+ </div>
+ <div class="items">
+     <div class="images">
+     <img src="Resimler/resim13.jpg" class="item-image-size"/>
+ </div>
+ <div class="açıklama">
+     <b>Riester Otoskop <br/> 2101-201</b><br/>
+     <div class="item-select">
+         Fiyat : ₺349<br/>
+     </div>
+         <button class="satın-alma" onclick="al()">Satın Al</button>
+ </div>
+ </div>
+ <div class="items">
+     <div class="images">
+     <img src="Resimler/resim14.jpg" class="item-image-size"/>
+ </div>
+ <div class="açıklama">
+     <b>Riester Alın Aynası <br/> 6005</b><br/>
+     <div class="item-select">
+         Fiyat : ₺229<br/>
+     </div>
+         <button class="satın-alma" onclick="al()">Satın Al</button>
+ </div>
+ </div>
+ <div class="items">
+     <div class="images">
+     <img src="Resimler/resim15.jpg" class="item-image-size"/>
+ </div>
+ <div class="açıklama">
+     <b>EKG Cihazı Tek Kanallı <br/> Elektrokardiyograf Yorumlu 100G</b><br/>
+     <div class="item-select">
+         Fiyat : ₺3.999<br/>
+     </div>
+         <button class="satın-alma" onclick="al()">Satın Al</button>
+ </div>
+ </div>
+ <div class="items">
+     <div class="images">
+     <img src="Resimler/resim16.jpg" class="item-image-size"/>
+ </div>
+ <div class="açıklama">
+     <b>Laringoskop Seti <br/> 3 Blade</b><br/>
+     <div class="item-select">
+         Fiyat : ₺424,99<br/>
+     </div>
+         <button class="satın-alma" onclick="al()">Satın Al</button>
+ </div>
+ </div>
+ 
+     </div>
+
+
+
+
+
+     <div class="duzen2">
+          <div class="footer">
+             <div class="hızlı-link">
+                 <div>Sosyal Medya</div>
+                 <ul>
+                     <li><a href="" class="a-links">Instagram</a></li>
+                     <li><a href="" class="a-links">Facebook</a></li>
+                     <li><a href="" class="a-links">Twitter</a></li>
+                     <li><a href="" class="a-links">Youtube</a></li>
+                 </ul>
+             </div>
+          </div>
+     </div>
+     <div class="telif">
+        MEDİKAL PAZARLAMA © 2022. Tüm hakları saklıdır. Ürünler izinsiz kullanılamaz.
+     </div>
+
+
+
+</body>
+</html>

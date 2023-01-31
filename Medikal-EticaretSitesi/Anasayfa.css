@@ -1,0 +1,187 @@
+body{
+    margin:0;
+    font-family:system-ui;
+}
+
+.duzen, .duzen2{
+background-image: url('Resimler/arkaplan.jpg');
+height: max-content;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.sayfa-baslıgı{
+     background:rgba(0,0,0,0.5);
+     text-align: center;
+     color:white;
+     padding:50px;
+     font-variant:small-caps;
+     font-size: 100px;
+     font-size:fantasy;
+     letter-spacing: 20px;
+
+
+}
+
+.sticky{
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+
+.menu{
+    background:#0f84a8;
+    text-align: center;
+    
+
+}
+
+.menu-ul{
+    margin:0;
+    padding:0;
+    display:inline;
+
+}
+
+.menu-ul li{
+    font-size:17px;
+    list-style:none;
+    display:inline-block;
+    padding:25px 25px 26px 25px;
+}
+
+.a-menu, .a-links{
+    text-decoration:none;
+    color:white;
+}
+
+.menu-ul li:hover{
+    background:#5b8c5a;
+    transform:scale(1.1);
+}
+
+.container, .medikal-container{
+    margin:50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+    
+}
+
+.kategori, .items{
+    width: max-content;
+    margin: 25px;
+    border:2px solid #0f84a8;
+    border-radius: 0 0 50px 50px;
+    display:  inline-block;
+}
+
+.kategori:hover, .items:hover{
+    box-shadow: 0 0 10px 3px #0f84a8;
+}
+
+.item-image{
+    height: 200px;
+    width: 300px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+
+.image-title{
+    text-align:center;
+    padding: 10px;
+    font-weight: bold;
+    color: #0f84a8;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    padding: 50px;
+    font-size:50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color:#012722;
+    background:rgba (0,0,0,0.5);
+    border:2px solid #0f84a8;
+    
+}
+
+.images{
+    display: inline-block;
+}
+
+.item-image-size{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+}
+
+.açıklama{
+    margin: 20px;
+    min-height: 100px;
+
+}
+
+.item-select{
+    margin: 10px 0 0 0;
+
+}
+
+.satın-alma{
+    border:1px solid #0f84a8;
+    background:#0f84a8;
+    padding:5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.satın-alma:hover{
+    border:1px solid #5b8c5a;
+    box-shadow:0 0 10px 5px #5b8c5a inset;
+}
+
+.footer{
+    background:rgba(0,0,0,0.5);
+    text-align: center;
+    padding:20px;
+
+}
+
+.hızlı-link{
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+
+.hızlı-link ul{
+    padding: 0;
+}
+
+.hızlı-link li {
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.a-links:hover{
+    color:#fd5e53;
+}
+
+.telif{
+    font-size:16px;
+    text-align: center;
+    margin:15px;
+}
+
+
